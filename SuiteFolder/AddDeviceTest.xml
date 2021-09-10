@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.scs.test.DeviceTest">
+				<methods>
+					<include name="DV0001"/>
+					<include name="DV0002"/>
+					<include name="DV0003"/>
+					<include name="DV0004"/>
+					<include name="DV0005"/>
+					<include name="DV0006"/>
+					<include name="DV0007"/>
+					<include name="DV0008"/>
+					<include name="DV0009"/>
+					<include name="DV0010"/>
+					<include name="DV0011"/>
+					<include name="DV0012"/>
+					<include name="DV0013"/>
+					<include name="DV0014"/>
+					<include name="DV0015"/>
+					<include name="DV0016"/>
+					<include name="DV0017"/>
+					<include name="DV0018"/>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
