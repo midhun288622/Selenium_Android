@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<suite-files>
+	
+		<suite-file path="SuiteFolder/AddDeviceTest.xml" />
+		<suite-file path="SuiteFolder/AddGroupTest.xml" />
+		<suite-file path="SuiteFolder/SpaceTest.xml" />
+		<suite-file path="SuiteFolder/SceneTest.xml" />
+		<suite-file path="SuiteFolder/RemoveGroupTest.xml" />
+		<suite-file path="SuiteFolder/RemoveDeviceTest.xml" />
+		<suite-file path="SuiteFolder/HomePageTest.xml" />
+		<suite-file path="SuiteFolder/LoginTest.xml" /> 
+		
+	</suite-files>
+</suite> <!-- Suite -->
